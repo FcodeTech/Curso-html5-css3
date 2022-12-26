@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture>
+        <source media="(max-width:750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">    
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo audio em HTML5</h1>
+
+    <audio preload="metadata" autopla controls>
+        <source src="audio/Alan Walker   Spectre [NCS Release].mp3" type="audio/mpeg">
+        
+    </audio>
+    <br>
+    <audio preload="metadata" autopla controls>
+        <source src="audio/Pontes Indestrutíveis - Charlie Brown Jr(MP3_128K).mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
